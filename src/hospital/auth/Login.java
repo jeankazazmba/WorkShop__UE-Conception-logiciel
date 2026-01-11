@@ -15,6 +15,8 @@ public class Login {
     }
 
     public boolean authenticate(String id, String password) {
-        return this.id.equals(id) && this.password.equals(password);
+        return this.id.equals(id) && this.password.equals(password); // permet de vérifier les identifiants
+        //la comparaison se fait avec equals pour les String
+        // le mot clef this signifie que l'on fait référence à l'objet courant
     }
 }

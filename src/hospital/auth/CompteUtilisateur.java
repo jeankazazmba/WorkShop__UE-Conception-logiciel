@@ -21,7 +21,7 @@ public class CompteUtilisateur {
     public CompteUtilisateur(Login login, User user) {
         this.login = login;
         this.user = user;
-        this.dateDeCreation = new Date();
+        this.dateDeCreation = new Date(); // new Date() pour la date actuelle
     }
 
     public User getUser() {

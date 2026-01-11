@@ -1,10 +1,12 @@
 package hospital.users;
 
 import java.util.Date;
+import  java.util.Scanner;
 
 public class Parents extends User {
 
     private Date dateDeNaissance;
+    Scanner scanner = new Scanner(System.in);
 
     public Parents(String nom, String prenom, String pays,
                    String adresse, Date dateDeNaissance) {
